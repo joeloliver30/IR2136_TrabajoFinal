@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+websockets
+rclpy
+pymavlink
+std-msgs
+geometry-msgs
