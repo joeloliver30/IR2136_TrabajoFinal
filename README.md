@@ -82,3 +82,5 @@ Cuando se hayan almacenado todas las posiciones, se debe pulsar la tecla "F" par
 
 
 Una vez se ha pulsado la tecla "F", actuara el codigo del nodo de ROS2, que estaba esperando a que se publicara la lista. Una vez publicada, el dron se armará, cambiará a modo GUIDED y se elevara unos 10m (en ocasiones puede dar error de armado, por tanto repetir el proceso) y avanzara hasta el primer punto.
+
+[Ver video](./proyecto_Final.mp4)
