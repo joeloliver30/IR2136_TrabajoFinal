@@ -12,7 +12,7 @@ Para el correcto funcionamiento se deben seguir los siguientes pasos, en el orde
     - Ejecutar la simulacion de Unity
 
 ### ROSBridge
-Primeramente ejecutar este º
+Primeramente ejecutar este
 ```
 source /opt/ros/humble/setup.bash
 ros2 launch rosbridge_server rosbridge_websocket_launch.xml
