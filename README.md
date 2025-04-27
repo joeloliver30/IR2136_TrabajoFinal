@@ -6,9 +6,21 @@ Este repositorio contiene la simulacion de Unity y el ROS package para la realiz
 ## Instrucciones para la ejecucion de la simulacion correctamente
 Para el correcto funcionamiento se deben seguir los siguientes pasos, en el orden puesto:
 
+    - Iniciar el ROSBridge
     - Iniciar Ardupilot SITL
     - Tener activado el nodo de ROS
     - Ejecutar la simulacion de Unity
+
+### ROSBridge
+Primeramente ejecutar este º
+```
+source /opt/ros/humble/setup.bash
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+```
+Si no esta instalado:
+```
+sudo apt install ros-humble-rosbridge-suite
+```
 
 ### Ardupilot SITL
 Para poder abrir Ardupilot SITL se debe ejecutar las siguientes ordenes:
