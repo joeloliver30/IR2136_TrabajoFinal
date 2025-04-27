@@ -68,3 +68,5 @@ Una vez se haya colocado el dron en el punto deseado, se pulsa la tecla "Space" 
 
 Cuando se hayan almacenado todas las posiciones, se debe pulsar la tecla "F" para indicar que se ha completado la ruta y se publique dicha ruta.
 
+
+Una vez se ha pulsado la tecla "F", actuara el codigo del nodo de ROS2, que estaba esperando a que se publicara la lista. Una vez publicada, el dron se armará, cambiará a modo GUIDED y se elevara unos 10m (en ocasiones puede dar error de armado, por tanto repetir el proceso) y avanzara hasta el primer punto.
